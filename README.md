@@ -2,7 +2,6 @@
 
 [English](README.md) | [中文](README_zh.md)
 
-![Burst Foam Game](https://img.shields.io/badge/Game-Burst%20Foam-blue)
 ![HTML5](https://img.shields.io/badge/HTML-5-orange)
 ![CSS3](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
