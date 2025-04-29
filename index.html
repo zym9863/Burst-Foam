@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burst Foam - 点破泡沫</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="bubbles-bg"></div>
+        <div class="score-container">
+            <i class="fas fa-star"></i>
+            <span>分数: </span>
+            <span id="score">0</span>
+        </div>
+        <div id="game-area"></div>
+        <div id="game-over" class="hidden">
+            <div class="result-card">
+                <h2>游戏结束!</h2>
+                <p class="game-over-message"><i class="fas fa-exclamation-triangle"></i> 泡泡逃到了顶部!</p>
+                <div class="score-display">
+                    <i class="fas fa-trophy"></i>
+                    <p>最终分数: <span id="final-score">0</span></p>
+                </div>
+                <button id="restart-button"><i class="fas fa-redo"></i> 重新开始</button>
+            </div>
+        </div>
+        <div id="start-screen">
+            <h1><i class="fas fa-water"></i> 点破泡沫</h1>
+            <p>点击泡泡获得分数，看看你能得多少分！</p>
+            <button id="start-button"><i class="fas fa-play"></i> 开始游戏</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
